@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SchoolDocs Share Links</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-row">
+        <img src="icons/icon-tile.png" alt="SchoolDocs Share Links" class="app-icon" />
+        <h1><span class="accent-word">SchoolDocs</span> Share Links</h1>
+        <button id="refreshSharelinks" class="refreshSharelinks" title="Clear and refresh detected documents.">↺</button>
+      </div>
+      
+      <div id="sharelinksContainer">
+        <div class="sharelinks-header">
+          <label>Open a policy in SchoolDocs to get started. <span class="hint-icon"
+            title="Hint, you need to have to opened and loaded the SchoolDocs document page at least once for it to be detected.">🛈</span></label>
+        </div>
+        <div id="sharelinksList"></div>
+      </div>
+
+      <details id="settingsCollapsible" class="settings-section">
+        <summary class="settings-summary">Settings</summary>
+        <div class="settings-content">
+          <label for="schoolGuid">School Guid<span class="hint-icon"
+            title="Contact your admin or SchoolDocs to get your SchoolGuid. Example: {12345678-abcd-1234-abcd-1234567890}">🛈</span></label>
+          <input id="schoolGuid" type="text" placeholder="e.g. {12345678-abcd-1234-abcd-1234567890}" />
+        </div>
+      </details>
+
+      <div id="message" role="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

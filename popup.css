@@ -1,0 +1,216 @@
+:root {
+    font-family: Segoe UI, Roboto, Arial, sans-serif;
+    color: #1e3b41;
+}
+
+body {
+    min-width: 320px;
+    padding: 12px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1 {
+    color: #1e3b41;
+    font-size: 16px;
+    margin: 0 0 6px
+}
+
+.accent-word {
+    color: #6cbc45;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.app-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: inline-block;
+    /* margin-right: 5px; */
+
+}
+
+.title-row h1 { margin: 0; }
+
+label {
+    font-size: 12px
+}
+
+input[type=text] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+input[type=text]:focus {
+    outline-color: #6cbc45;
+}
+
+.sharelink-input-row {
+    display: flex;
+    gap: 6px;
+    align-items: stretch
+}
+
+.sharelink-input-row input {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px
+}
+
+.sharelink-input-row button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background: #1e3b41;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+#sharelinksList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.sharelinks-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.refreshSharelinks {
+    margin-left: auto;
+    padding: 4px 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+    background: #fff;
+    cursor: pointer;
+}
+
+.refreshSharelinks:hover {
+    background: #f2f2f2;
+}
+
+.sharelink-item {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px
+}
+
+.sharelink-main {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sharelink-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sharelink-item input {
+    max-width:92%;
+    width: 92%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.sharelink-item button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background: #6cbc45;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 600;
+    align-self: self-end;
+}
+
+#message {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #555
+}
+
+.settings-section {
+    margin-top: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.settings-summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    user-select: none;
+    padding: 4px
+}
+
+.settings-summary:hover {
+    background: #f0f0f0;
+    border-radius: 3px
+}
+
+.settings-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #eee
+}
+
+.settings-content label {
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-right: 4px;
+}
+
+.settings-content input {
+    font-size: 12px;
+    padding: 6px;
+    height: 18px;
+}
+
+.hint-icon {
+    font-size: 16px;
+    margin-left: 6px;
+    color: #1e3b41;
+    cursor: help;
+}
