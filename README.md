@@ -1,6 +1,6 @@
-# Schooldoc Share Links
+# SchoolDocs Share Links
 
-This small extension allows you to quickly create sharelinks for Schooldocs documents with your tenant guid.
+This small extension allows you to quickly create sharelinks for SchoolDocs documents with your tenant guid.
 
 Features:
 - Automatically detects and constructs shareable links to SchoolDocs documents you have open.
