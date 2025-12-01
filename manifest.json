@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "SchooDocs Share Links",
+    "name": "SchoolDocs Share Links",
     "description": "Allows you to quickly create sharelinks for SchoolDocs documents with your school guid.",
     "version": "1.0",
     "action": {
