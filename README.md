@@ -1,7 +1,7 @@
 # SchoolDocs Share Links
 
 This small extension allows you to quickly create sharelinks for SchoolDocs documents with your tenant guid. 
-![Popup Screenshot](icons\screenshot1.png)
+![Popup Screenshot](/icons/screenshot1.png)
 ### Features:
 - Automatically detects and constructs shareable links to SchoolDocs documents in active tabs.
 - Support for SchoolDocs pages with PDF documents.
